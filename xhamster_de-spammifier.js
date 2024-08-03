@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         xhamster de-spammifier
 // @namespace    http://tampermonkey.net/
-// @version      2024-08-02
+// @version      2024.08.02.01
 // @description  Removes spam and ads from xhamster.com
 // @author       CttCJim
 // @match        https://xhamster.com/*
@@ -9,6 +9,8 @@
 // @grant        none
 // @require https://code.jquery.com/jquery-3.6.3.min.js
 // ==/UserScript==
+//get the latest version of this file from GitHub! https://github.com/CttCJim/xhamster-despammifier
+//Look me up on Patreon if you love this: https://www.patreon.com/CttCJim
 
 (function() {
     'use strict';
